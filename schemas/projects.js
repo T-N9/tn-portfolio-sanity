@@ -41,6 +41,31 @@ export default {
             },
         },
         {
+            name:'status',
+            title:'Status',
+            type: 'string',
+        },
+        {
+            name:'type',
+            title:'Type',
+            type: 'string',
+        },
+        {
+            name:'role',
+            title:'Role',
+            type: 'string',
+        },
+        {
+            name:'period',
+            title:'Period',
+            type: 'string',
+        },
+        {
+            name:'url',
+            title:'Url',
+            type: 'string',
+        },
+        {
             name: "order",
             title: "Order",
             type: "number",
