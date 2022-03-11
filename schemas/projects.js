@@ -66,6 +66,12 @@ export default {
             type: 'string',
         },
         {
+            name:'introduction',
+            title:'Introduction',
+            type: 'array', 
+            of: [{type: 'block'}]
+        },
+        {
             name: "order",
             title: "Order",
             type: "number",
