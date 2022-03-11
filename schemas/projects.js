@@ -66,11 +66,6 @@ export default {
             type: 'string',
         },
         {
-            name:'introduction',
-            title:'Introduction',
-            type: 'block',
-        },
-        {
             name: "order",
             title: "Order",
             type: "number",
