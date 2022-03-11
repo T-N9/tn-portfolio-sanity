@@ -68,7 +68,8 @@ export default {
         {
             name:'introduction',
             title:'Introduction',
-            type: 'string',
+            type: 'array', 
+            of: [{type: 'block'}]
         },
         {
             name: "order",
