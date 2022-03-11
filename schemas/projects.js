@@ -68,7 +68,7 @@ export default {
         {
             name:'introduction',
             title:'Introduction',
-            type: 'blockContent',
+            type: 'block',
         },
         {
             name: "order",
