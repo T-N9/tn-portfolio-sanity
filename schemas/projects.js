@@ -72,6 +72,20 @@ export default {
             of: [{type: 'block'}]
         },
         {
+            name:'development',
+            title:'Development',
+            type: 'array', 
+            of: [{type: 'block'}]
+        },
+        {
+            name:'mockup',
+            title:'Mockup',
+            type: 'image',
+            options: {
+              hotspot: true,
+            },
+        },
+        {
             name: "order",
             title: "Order",
             type: "number",
