@@ -86,6 +86,12 @@ export default {
             },
         },
         {
+            name:'pandp',
+            title:'Pandp',
+            type: 'array', 
+            of: [{type: 'block'}]
+        },
+        {
             name: "order",
             title: "Order",
             type: "number",
