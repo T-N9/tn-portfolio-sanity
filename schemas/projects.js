@@ -92,6 +92,20 @@ export default {
             of: [{type: 'block'}]
         },
         {
+            name:'designing',
+            title:'Designing',
+            type: 'array', 
+            of: [{type: 'block'}]
+        },
+        {
+            name:'mockup_d',
+            title:'Mockup_d',
+            type: 'image',
+            options: {
+              hotspot: true,
+            },
+        },
+        {
             name: "order",
             title: "Order",
             type: "number",
