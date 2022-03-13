@@ -112,6 +112,14 @@ export default {
             of: [{type: 'string'}]
         },
         {
+            name:'typo',
+            title:'Typo',
+            type: 'image',
+            options: {
+              hotspot: true,
+            },
+        },
+        {
             name: "order",
             title: "Order",
             type: "number",
