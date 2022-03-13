@@ -120,6 +120,14 @@ export default {
             },
         },
         {
+            name:'logo',
+            title:'Logo',
+            type: 'image',
+            options: {
+              hotspot: true,
+            },
+        },
+        {
             name: "order",
             title: "Order",
             type: "number",
