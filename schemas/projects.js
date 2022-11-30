@@ -133,7 +133,12 @@ export default {
             type: "number",
             hidden: true,
         },
-        
+        {
+            name:'conclusion',
+            title:'Conclusion',
+            type: 'array', 
+            of: [{type: 'block'}]
+        },
     ],
     orderings: [
         {
