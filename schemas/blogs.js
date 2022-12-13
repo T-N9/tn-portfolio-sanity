@@ -31,15 +31,15 @@ export default {
             ],
           },
         ],
-        options: {
-          list: [
-            // these values will be the only available options
-            { value: "design", title: "Design" },
-            { value: "programming", title: "Programming" },
-            // etc
-          ],
+        // options: {
+        //   list: [
+        //     // these values will be the only available options
+        //     { value: "design", title: "Design" },
+        //     { value: "programming", title: "Programming" },
+        //     // etc
+        //   ],
         //   layout: "radio", // <-- defaults to 'dropdown' with a list of values
-        },
+        // },
       },
     {
       name: "content",
