@@ -17,5 +17,18 @@ export default {
         maxLength: 96,
       },
     },
+    {
+        name: 'content',
+        type: 'array',
+        title: 'Content',
+        of: [
+          {
+            type: 'block'
+          },
+          {
+            type: 'image'
+          }
+        ]
+    }
   ],
 };
