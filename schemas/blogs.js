@@ -18,6 +18,30 @@ export default {
       },
     },
     {
+        title: "Categories",
+        name: "categories",
+        type: "array",
+        of: [
+          { type: "string" },
+          {
+            type: "reference",
+            to: [
+              { type: "category" },
+              // etc
+            ],
+          },
+        ],
+        options: {
+          list: [
+            // these values will be the only available options
+            { value: "design", title: "Design" },
+            { value: "programming", title: "Programming" },
+            // etc
+          ],
+        //   layout: "radio", // <-- defaults to 'dropdown' with a list of values
+        },
+      },
+    {
       name: "content",
       type: "array",
       title: "Content",
@@ -30,29 +54,6 @@ export default {
         },
       ],
     },
-    {
-      title: "Categories",
-      name: "categories",
-      type: "array",
-      of: [
-        { type: "string" },
-        {
-          type: "reference",
-          to: [
-            { type: "category" },
-            // etc
-          ],
-        },
-      ],
-      options: {
-        list: [
-          // these values will be the only available options
-          { value: "design", title: "Design" },
-          { value: "programming", title: "Programming" },
-          // etc
-        ],
-        layout: "radio", // <-- defaults to 'dropdown' with a list of values
-      },
-    },
+
   ],
 };
