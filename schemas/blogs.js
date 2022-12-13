@@ -18,31 +18,41 @@ export default {
       },
     },
     {
-        name: 'content',
-        type: 'array',
-        title: 'Content',
-        of: [
-          {
-            type: 'block'
-          },
-          {
-            type: 'image'
-          }
-        ]
+      name: "content",
+      type: "array",
+      title: "Content",
+      of: [
+        {
+          type: "block",
+        },
+        {
+          type: "image",
+        },
+      ],
     },
     {
-        title: 'Categories', 
-        name: 'categories',
-        type: 'array',
-        of: [{type: 'string'}],
-        options: {
-          list: [  // these values will be the only available options
-            {value: 'design', title: 'Design'},
-            {value: 'programming', title: 'Programming'},
+      title: "Categories",
+      name: "categories",
+      type: "array",
+      of: [
+        { type: "string" },
+        {
+          type: "reference",
+          to: [
+            { type: "category" },
             // etc
-            ],
-            layout: 'radio' // <-- defaults to 'dropdown' with a list of values
-          },
+          ],
+        },
+      ],
+      options: {
+        list: [
+          // these values will be the only available options
+          { value: "design", title: "Design" },
+          { value: "programming", title: "Programming" },
+          // etc
+        ],
+        layout: "radio", // <-- defaults to 'dropdown' with a list of values
       },
+    },
   ],
 };
