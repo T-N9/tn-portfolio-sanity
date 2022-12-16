@@ -60,6 +60,9 @@ export default {
         {
           type: "image",
         },
+        {
+          type: "code"
+        }
       ],
     },
   ],
