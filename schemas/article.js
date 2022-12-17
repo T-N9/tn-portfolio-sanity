@@ -30,7 +30,6 @@ export default {
       name: "categories",
       type: "array",
       of: [
-        { type: "string" },
         {
           type: "reference",
           to: [
