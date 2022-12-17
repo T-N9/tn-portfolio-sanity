@@ -12,9 +12,7 @@
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "order-documents",
-    "@sanity/code-input",
-    "@sanity/code-input@^2.30.0"
+    "order-documents"
   ],
   "env": {
     "development": {
